@@ -2,7 +2,7 @@ import Noticia from '#models/noticia'
 import { test } from '@japa/runner'
 
 test.group('Noticia Delete', (group) => {
-  group.each.setup(async (client) => {
+  group.each.setup(async () => {
     //criando notícia a ser deletada.
     Noticia.create({
       titulo: 'Empresa de Tecnologia Antecipa Anúncio de Produto Incrível',

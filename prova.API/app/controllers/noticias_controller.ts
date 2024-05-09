@@ -2,7 +2,7 @@ import Noticia from '#models/noticia'
 import type { HttpContext } from '@adonisjs/core/http'
 
 export default class NoticiasController {
-  async index({}: HttpContext) {
+  async index() {
     return await Noticia.all()
   }
   async store({ request, response }: HttpContext) {

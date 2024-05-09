@@ -2,7 +2,7 @@ import Noticia from '#models/noticia'
 import { BaseSeeder } from '@adonisjs/lucid/seeders'
 
 export default class extends BaseSeeder {
-  static environment = ['development', 'test']
+  static readonly environment = ['development', 'test', 'production']
   async run() {
     // Write your database queries inside the run method
     await Noticia.createMany([
