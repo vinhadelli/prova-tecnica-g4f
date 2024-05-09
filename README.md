@@ -8,11 +8,9 @@ https://github.com/vinhadelli/prova-tecnica-g4f-frontend
 
 ## Como Executar
 
-### Localmente
-
 Como executar a aplicação
 
-### Backend
+### Localmente
 
 Executar o script `deploy-local` para inicializar e popular o banco e fazer o deploy da aplicação na porta 3333.
 Há uma versão `.ps1` para Windows e uma `.sh` para Linux.
